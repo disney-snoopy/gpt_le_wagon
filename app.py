@@ -8,7 +8,7 @@ from gpt_le_wagon.wordcloud import get_wordcloud
 # setting wide screen
 st.set_page_config(layout="wide")
 
-with st.beta_expander(label='Creators of this App', expanded=False):
+with st.beta_expander(label='🤗Creators of this App🤗', expanded=False):
     c1, c2, c3 = st.beta_columns((1,1,1))
     c1.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1622389459/gpt/T02NE0241-U01UPSN2MA7-142110bca3da-512_d8fcst.jpg', use_column_width=True)
     c2.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1622389455/gpt/Renato_Boemer_-_BW_ckccyj.jpg',  use_column_width=True)
@@ -21,7 +21,17 @@ with st.beta_expander(label='Creators of this App', expanded=False):
     c3.markdown('''Jae Kim''')
     c3.markdown('''[Github](https://github.com/disney-snoopy/)''')
 
+with st.beta_expander(label='💌Introduction💌', expanded=False):
+    st.markdown('''
+                ## Motivation
+                Game developing companies are constantly improving the gaming experience so as to increase engagement and revenue.
+                However, traditional approaches to understanding user experience and feedback, such as research, are expensive and time-consuming. Also, reading reviews to identify the criteria by which players evaluate the game experience, as well as their overall feeling towards the game, is challenging, if not completely unreliable. This is because people might have a different (or contrasting) interpretation of a review -- let alone how difficult it is for players to express their opinion through writing. Therefore, a human reviewer makes it difficult to reach reliable conclusions that support game development and business decisions.
+                ## Out Solution
+                ReviewRaven is powered by GPT-3 autoregressive language model that uses deep learning to interpret a human-like text. ReviewRaven creates clustering and sentiment analysis based on game reviews. It is a simple and easy online tool for game developers and companies that need quick text review interpretation and a sense of direction of what the customers think about a product. ReviewRaven saves time, money and offers consistent and reliable reports based on what customers/players say and feel.
+                Just upload a CSV file and ReviewRaven outputs a dashboard with key stats and visual representation of the reviews. ReviewRaven will transform the way developers interact with gamers, enabling them to create a unique gaming experience whilst increasing revenue for the company.
+                We are just starting, so watch this space!
 
+                ''')
 
 
 # sidebar for page navigation
