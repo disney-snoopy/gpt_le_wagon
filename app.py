@@ -12,11 +12,15 @@ with st.beta_expander(label='Creators of this App', expanded=False):
     c1, c2, c3 = st.beta_columns((1,1,1))
     c1.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1622389459/gpt/T02NE0241-U01UPSN2MA7-142110bca3da-512_d8fcst.jpg', use_column_width=True)
     c2.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1622389455/gpt/Renato_Boemer_-_BW_ckccyj.jpg',  use_column_width=True)
-    c3.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1617581098/profile_crop_ctsltw.jpg',  use_column_width=True)
+    c3.image('https://res.cloudinary.com/dbxctsqiw/image/upload/v1622391317/profile_elwgth.jpg',  use_column_width=True)
     c1, c2, c3 = st.beta_columns((1,1,1))
-    c1.write('Zak Song')
-    c2.write('Renato Boemer')
-    c3.write('Jae Kim')
+    c1.markdown('''Zak Song''')
+    c1.markdown('''[Linked In](https://www.linkedin.com/in/zak-gei-song-010725157/), [Github](https://github.com/songzeji)''')
+    c2.markdown('''Renato Boemer''')
+    c2.markdown('''[Linked In](https://www.linkedin.com/in/renatoboemer/), [Github](https://github.com/boemer00?tab=repositories)''')
+    c3.markdown('''Jae Kim''')
+    c3.markdown('''[Github](https://github.com/disney-snoopy/)''')
+
 
 
 
